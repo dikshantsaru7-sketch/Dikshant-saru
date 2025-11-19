@@ -1,30 +1,14 @@
 
 /**
- * Write a description of class workshop3 here.
+ * Write a description of class question1 here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class workshop3
-{ 
-    int ages; //instance variable
-        static int age ;// static variable
-        
-    
-    
+public class question1
+{
     public static void main(String[] args){
-        
-        int qty=10; //local varibale
-        System.out.println("dikshant");
-        
-        //<workshop3> <variable>=new <workshop3>();
-        workshop3 w1= new workshop3();
-         System.out.println(w1.age);
-         System.out.println(age);
-         
-         System.out.println("dikshant");
-         
-         int sum = 1+1; //sum will be 2 
+        int sum = 1+1; //sum will be 2 
          System.out.println(sum);
         
              int difference = 10 - 4; // difference will be 6
@@ -45,9 +29,8 @@ public class workshop3
             int x = 5;
         int y = ++x; 
         System.out.println(y);
-  
         
-    }
     
-        
+  
+    }
 }
