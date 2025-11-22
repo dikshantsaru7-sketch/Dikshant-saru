@@ -12,17 +12,17 @@ public class Rickshawfare
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter distance (in km): ");
-        double distance = sc.nextDouble();
+        double distance = scanner.nextDouble();
 
         System.out.print("Enter time (in minutes): ");
         int time = sc.nextInt();
 
         System.out.print("Is the customer local? (yes/no): ");
-        String localInput = sc.next();
+        String localInput = scanner.next();
         boolean isLocal = localInput.equalsIgnoreCase("yes");
 
         System.out.print("Is the travel during night? (yes/no): ");
-        String nightInput = sc.next();
+        String nightInput = scanner.next();
         boolean isNight = nightInput.equalsIgnoreCase("yes");
 
         double fare = (distance * 20) + (time * 2);
@@ -33,6 +33,6 @@ public class Rickshawfare
 
         System.out.println("Final Fare: Rs. " + Math.round(fare));
 
-        sc.close();
+        scanner.close();
     }
 }
