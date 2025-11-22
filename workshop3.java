@@ -24,28 +24,7 @@ public class workshop3
          
          System.out.println("dikshant");
          
-         int sum = 1+1; //sum will be 2 
-         System.out.println(sum);
-        
-             int difference = 10 - 4; // difference will be 6
-             System.out.println(difference);
-            
-             int product = 10*2;
-             System.out.println(product);
-             
-                 int quotientInt = 10 / 3;
-                 System.out.println(quotientInt);
-                 
-                     int remainder = 10 % 3;
-                     System.out.println(remainder);
-                     
-                         int a = 10;
-    int b = -a; 
-    System.out.println(b);
-            int x = 5;
-        int y = ++x; 
-        System.out.println(y);
-  
+         
         
     }
     
